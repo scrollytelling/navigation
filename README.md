@@ -8,8 +8,6 @@ This [Pageflow](https://github.com/codevise/pageflow) plugin replaces the defaul
 
 The Scrollytelling navigation uses dots to show *progress* instead of thumbnails.
 
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3o7TKLy0He9SYe8niE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/election2016-dnc-democratic-national-convention-2016-3o7TKLy0He9SYe8niE">via GIPHY</a></p>
-
 ### This is the 1-13-stable branch
 
 This branch targets `gem 'pageflow', '~> 0.11.0'`.
@@ -28,7 +26,9 @@ gem 'scrollytelling-navigation'
 
 Bundle the plugin with your application by typing this on the command line:
 
-    $ bundle
+    $ bundle install
+
+[![see the installation in ACTION!](https://asciinema.org/a/MM9Vb8OuUO5b44PhANCf4IiSt.png)](https://asciinema.org/a/MM9Vb8OuUO5b44PhANCf4IiSt)
 
 ## Usage
 
