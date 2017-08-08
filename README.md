@@ -1,8 +1,14 @@
-# Scrollytelling::Navigation
+# Scrollytelling Navigation
 
-This [Pageflow](https://github.com/codevise/pageflow) plugin replaces the built-in navigation with the Scrollytelling version.
+![Scrollytelling](scrollytelling.png?raw=true)
 
-The Scrollytelling navigation uses dots to show progress instead of thumbnails.
+[www.scrollytelling.io](https://www.scrollytelling.io/)
+
+This [Pageflow](https://github.com/codevise/pageflow) plugin replaces the default navigation with our version.
+
+The Scrollytelling navigation uses dots to show *progress* instead of thumbnails.
+
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/3o7TKLy0He9SYe8niE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/election2016-dnc-democratic-national-convention-2016-3o7TKLy0He9SYe8niE">via GIPHY</a></p>
 
 ### This is the 1-13-stable branch
 
