@@ -1,23 +1,23 @@
-# Scrollytelling::Pageflow::Navigation
+# Scrollytelling::Navigation
 
-This Pageflow plugin replaces the built-in Pageflow navigation with the Scrollytelling version.
+This [Pageflow](https://github.com/codevise/pageflow) plugin replaces the built-in navigation with the Scrollytelling version.
 
-The Scrollytelling navigation uses dots to show progress instead of thumbnails. This plugin does not replace the mobile Pageflow navigation; only the desktop navigation.
+The Scrollytelling navigation uses dots to show progress instead of thumbnails.
 
 ### This is the 1-13-stable branch
 
 This branch targets `gem 'pageflow', '~> 0.11.0'`.
 
-## Examples
+## How does it look?
 
-For examples see the various stories on [our homepage](https://www.scrollytelling.io/).
+See the various stories on [our homepage](https://www.scrollytelling.io/).
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'scrollytelling-pageflow-navigation'
+gem 'scrollytelling-navigation'
 ```
 
 Bundle the plugin with your application by typing this on the command line:
@@ -26,17 +26,17 @@ Bundle the plugin with your application by typing this on the command line:
 
 ## Usage
 
-You will need to register the plugin in the Pageflow initializer and then add it to your asset pipeline.
+Register the plugin in the Pageflow initializer and then add it to your asset pipeline.
 
 ```
 # config/initializers/pageflow.rb
-config.plugin(Scrollytelling::Pageflow::Navigation::Plugin.new)
+config.plugin(Scrollytelling::Navigation::Plugin.new)
 
 # app/assets/javascripts/pageflow/application.js
-//= require scrollytelling/pageflow/navigation
+//= require scrollytelling/navigation
 
 # app/assets/stylesheets/pageflow/application.css.scss
-@import "scrollytelling/pageflow/navigation";
+@import "scrollytelling/navigation";
 ```
 
 Furthermore after installing any Pageflow plugin it's a good idea to change your asset version. This will invalidate all server-side cache, most notably the cache that `i18n-js` uses to render the editor UI.
@@ -56,7 +56,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/scrollytelling/scrollytelling-pageflow-navigation. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/scrollytelling/scrollytelling-navigation. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License

@@ -1,4 +1,4 @@
-#scrollytelling-pageflow-navigation {
+#scrollytelling-navigation {
   right: 70px;
   position: absolute;
   z-index: 100;
@@ -27,7 +27,7 @@
       margin: -5px 0 0 -5px;
     }
 
-    .scrollytelling-pageflow-navigation-tooltip {
+    .scrollytelling-navigation-tooltip {
       transition: opacity 0.2s ease-in;
       width: auto;
       opacity: 1;
@@ -69,7 +69,7 @@
     }
   }
 
-  .scrollytelling-pageflow-navigation-tooltip {
+  .scrollytelling-navigation-tooltip {
     right: 30px;
     position: absolute;
     top: -1px;
@@ -109,7 +109,7 @@
       background: $scrollytelling-tooltip-bg-color;
     }
 
-    .scrollytelling-pageflow-navigation-tooltip {
+    .scrollytelling-navigation-tooltip {
       color: $scrollytelling-tooltip-bg-color;
       background-color: $scrollytelling-invert-tooltip-bg-color;
 

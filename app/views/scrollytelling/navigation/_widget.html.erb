@@ -1,7 +1,6 @@
-<div data-widget="scrollytelling_pageflow_navigation">
-  <!-- <div class="parent_page"><%= t('pageflow.public.back') %></div> -->
+<div data-widget="scrollytelling_navigation">
 
-  <nav id="scrollytelling-pageflow-navigation">
+  <nav id="scrollytelling-navigation">
     <ul>
       <% entry.pages.
            displayed_in_navigation.
@@ -12,7 +11,7 @@
             <span></span>
           </a>
           <% if page.configuration["title"].presence || page.configuration["subtitle"].presence %>
-            <div class="scrollytelling-pageflow-navigation-tooltip">
+            <div class="scrollytelling-navigation-tooltip">
               <%= page.configuration["title"].presence || page.configuration["subtitle"].presence %>
             </div>
           <% end %>
@@ -23,9 +22,9 @@
 
   <% if entry.home_button.enabled? %>
   <ul class="scrollytelling-home_button scrolly-nav-box">
-    <li><%= link_to t('pageflow.scrollytelling_pageflow_navigation.home_link'),
+    <li><%= link_to t('scrollytelling.navigation.home_link'),
                     entry.home_button.url,
-                    title: t('pageflow.scrollytelling_pageflow_navigation.home_title', url: entry.home_button.url) %></li>
+                    title: t('scrollytelling.navigation.home_title', url: entry.home_button.url) %></li>
   </ul>
   <% end %>
 

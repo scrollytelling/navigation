@@ -1,4 +1,4 @@
-pageflow.widgetTypes.register('scrollytelling_pageflow_navigation', {
+pageflow.widgetTypes.register('scrollytelling_navigation', {
   enhance: function(element) {
     element.scrollytellingNavigationCounter();
     element.scrollytellingNavigationInvert();

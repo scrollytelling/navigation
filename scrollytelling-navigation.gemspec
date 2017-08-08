@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'scrollytelling/pageflow/navigation/version'
+require 'scrollytelling/navigation/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "scrollytelling-pageflow-navigation"
-  spec.version       = Scrollytelling::Pageflow::Navigation::VERSION
+  spec.name          = "scrollytelling-navigation"
+  spec.version       = Scrollytelling::Navigation::VERSION
   spec.authors       = ["Joost Baaij"]
   spec.email         = ["joost@spacebabies.nl"]
 
-  spec.summary       = "Replace Pageflow navigation with Scrollytelling navigation"
-  spec.homepage      = "https://github.com/scrollytelling/scrollytelling-pageflow-navigation"
+  spec.summary       = "Scrollytelling “dots” navigation for Pageflow"
+  spec.homepage      = "https://github.com/scrollytelling/scrollytelling-navigation"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
