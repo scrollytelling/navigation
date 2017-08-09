@@ -13,7 +13,7 @@ module Scrollytelling
 
       def render(template, entry)
         template.render(
-          partial: 'scrollytelling/pageflow/navigation/widget.html.erb',
+          partial: 'scrollytelling/navigation/widget',
           locals: {
             entry: entry
           }
