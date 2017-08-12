@@ -54,6 +54,18 @@ Rails.application.config.assets.version = 'x.x.x'
 
 After all that, restart your application server.
 
+## Migrate all the things
+
+Your published entries and all your accounts will still reference the default Pageflow widget. To update the lot in bulk, run this:
+
+``` ruby
+Pageflow::Widget.
+  where(role: 'navigation').
+  find_each do |widget|
+    widget.update! type_name: 'scrollytelling_navigation'
+  end
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
