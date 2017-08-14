@@ -1,7 +1,7 @@
 $.widget('scrollytelling.scrollytellingNavigationCounter', {
   setActive: function(page) {
-    this.element.find('a').removeClass('active');
-    this.element.find('a[href="#' + page.attr('id') + '"]').addClass('active');
+    $('nav a', this.element).removeClass('active');
+    $('nav a[href="#' + page.attr('id') + '"]', this.element).addClass('active');
   },
 
   updateActive: function(page) {
