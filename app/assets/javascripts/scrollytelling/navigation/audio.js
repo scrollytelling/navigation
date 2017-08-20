@@ -3,9 +3,9 @@ $.widget('scrollytelling.audioControl', {
     var icon = $('#scrollytelling-audio', this.element);
 
     if(pageflow.settings.get('volume') > 0) {
-      icon.removeClass('audio-playing').addClass('audio-muted');
-    } else {
       icon.removeClass('audio-muted').addClass('audio-playing');
+    } else {
+      icon.removeClass('audio-playing').addClass('audio-muted');
     }
   },
 
