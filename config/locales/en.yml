@@ -5,4 +5,4 @@ en:
   scrollytelling:
     navigation:
       home: ' Home'
-      home_title: 'You‘re a mouse click away from %{url}'
+      home_title: 'Back to the home page'

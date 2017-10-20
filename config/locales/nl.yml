@@ -5,4 +5,4 @@ nl:
   scrollytelling:
     navigation:
       home: ' Home'
-      home_title: 'Je bent een muisklik verwijderd van %{url}'
+      home_title: 'Terug naar de homepage'
