@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency 'pageflow', '~> 12.x'
-  spec.add_runtime_dependency 'rails', '~> 4.2.9'
+  spec.add_runtime_dependency 'rails', '>= 3.0', '< 5.0'
 
   spec.add_development_dependency "bundler", "~> 1.x"
   spec.add_development_dependency "rake", "~> 10.x"
