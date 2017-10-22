@@ -95,6 +95,8 @@
     }
 
     .menu.index {
+      top: 10px;
+
       &:before {
         content: "\f00d";
       }
