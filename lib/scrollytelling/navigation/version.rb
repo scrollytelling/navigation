@@ -1,5 +1,5 @@
 module Scrollytelling
   module Navigation
-    VERSION = "12.0.2"
+    VERSION = "12.0.3"
   end
 end
