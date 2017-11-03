@@ -1,4 +1,6 @@
 .navigation_mobile {
+  pointer-events: all;
+
   .parent_page {
     display: none; /* hide here because we include it in all nav */
   }
@@ -94,8 +96,12 @@
       }
     }
 
+    .menu {
+      right: 210px;
+    }
+
     .menu.index {
-      top: 10px;
+      top: 9px;
 
       &:before {
         content: "\f00d";

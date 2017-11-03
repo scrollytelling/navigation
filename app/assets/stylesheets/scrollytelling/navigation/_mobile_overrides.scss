@@ -10,11 +10,14 @@
   }
 
   ul.scrollytelling-options {
-    bottom: 20px;
+    line-height: 1;
+    bottom: 6px;
     right: 10px;
   }
 
   .entry .indicator {
     left: 20px;
+    height: auto;
+    bottom: 14px;
   }
 }
